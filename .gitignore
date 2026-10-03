@@ -1,0 +1,8 @@
+# Raw data (download from UCI, see README)
+data/
+*.csv
+*.xlsx
+# Power BI temp files
+*.pbix.bak
+~$*
+.DS_Store

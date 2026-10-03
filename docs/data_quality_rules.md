@@ -30,8 +30,6 @@ Also found: 99% of prices used a comma decimal separator (unreadable as numbers 
 | 6 | Cancelled invoice | 19,104 | −1,462,050.61 |
 | | **Total** | **290,794** | **2,218,682.58** |
 
-> ⚠️ Check that this order matches the `CASE WHEN` order in `sql/retail_migration.sql` (section 3) and adjust if needed.
-
 Negative excluded revenue means the target is *higher* than it would be if those rows were kept: removing credit notes and negative prices without removing the original orders inflates target revenue.
 
 ## 3. Reconciliation

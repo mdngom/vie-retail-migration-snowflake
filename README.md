@@ -2,7 +2,7 @@
 
 A simulated retail data migration to Snowflake, built to show how I would profile a legacy data estate, measure its quality, reconcile source and target, and turn the result into decision-ready reporting.
 
-**Author:** Mame Ngom · [LinkedIn](https://www.linkedin.com/in/mamengom) · ngomamediarra@gmail.com
+**Author:** Mame Ngom · [LinkedIn](https://fr.linkedin.com/in/mamengom) · ngomamediarra@gmail.com
 
 ![Migration gaps dashboard](images/02_migration_gaps.png)
 

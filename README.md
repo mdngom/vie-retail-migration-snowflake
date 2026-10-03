@@ -71,7 +71,7 @@ The `.pbix` file is in [`powerbi/`](powerbi/). Open it with Power BI Desktop (fr
 ## How to reproduce
 
 1. Download `online_retail_II.xlsx` from the UCI link above and export both sheets to CSV (the raw data is not stored in this repo).
-2. In Snowflake, run `sql/retail_migration.sql` from top to bottom (it creates the stage, raw table, target table and gap views).
+2. In Snowflake, run `sql/retail_migration.sql` from top to bottom (it creates the raw table, target table and gap tables).
 3. Open `powerbi/*.pbix` and point the Snowflake connection to your account.
 
 ## Tools
